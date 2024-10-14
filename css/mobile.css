@@ -1,0 +1,59 @@
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .vegetables .box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 auto;
+  }
+  .vegetables .box-container .box {
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    border-radius: 40px;
+    padding: 32px;
+    gap: 10px;
+    min-height: 379px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  .vegetables .vegetables-text {
+    max-width: 335px;
+    height: 72px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.125em;
+    text-align: left;
+    color: #fbfbfb;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+  }
+  .vegetables .box-container .box-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .vegetables .organic-title {
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -1.5%;
+    text-align: left;
+    display: block;
+    max-width: 508px;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-left: 80px;
+  }
+}
