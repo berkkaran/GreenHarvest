@@ -35,7 +35,7 @@
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    margin-left: 90px;
+    margin-left: 80px;
   }
   .vegetables .box-container .box-list {
     display: flex;
@@ -54,6 +54,6 @@
     max-width: 508px;
     width: 100%;
     margin-bottom: 25px;
-    margin-left: 80px;
+    margin-left: 70px;
   }
 }
